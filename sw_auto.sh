@@ -16,4 +16,7 @@ do
   adb shell input tap 700 550
   echo "tap again"
   sleep 1
+  adb shell input tap 1245 630
+  echo "tap for out of energy cancel"
+  sleep 1
 done
